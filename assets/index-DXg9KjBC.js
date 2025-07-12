@@ -223,7 +223,7 @@
       <div class="bg-gray-50">
         <div id="header-container"></div>
 
-        <main class="maxProductList-w-md mx-auto px-4 py-4">
+        <main class="max-w-md mx-auto px-4 py-4">
           <!-- 검색 및 필터 -->
           <div id="filter-container"></div>
 
@@ -467,4 +467,4 @@
           >홈으로</a
         >
       </div>
-    </main>`}setEvent(){this.$target.addEventListener(`click`,e=>{e.target.matches(`a[data-link]`)&&(e.preventDefault(),window.history.pushState({},``,`/`),window.dispatchEvent(new Event(`popstate`)))})}};const q=[{path:`/`,component:R},{path:`/product/:id`,component:G},{path:`*`,component:K}];function J(){new i(q,document.getElementById(`root`))}const Y=`/front_6th_chapter1-1/`,X=()=>r(async()=>{let{worker:e}=await import(`./browser-DnWwAjJj.js`);return{worker:e}},[]).then(({worker:e})=>e.start({onUnhandledRequest:`bypass`,serviceWorker:{url:`${Y.slice(0,-1)}/mockServiceWorker.js`}}));function Z(){J()}X().then(Z);export{Y as b};
+    </main>`}setEvent(){this.$target.addEventListener(`click`,e=>{e.target.matches(`a[data-link]`)&&(e.preventDefault(),window.history.pushState({},``,`/`),window.dispatchEvent(new Event(`popstate`)))})}};const q=[{path:`/`,component:R},{path:`/product/:id`,component:G},{path:`*`,component:K}];function J(){new i(q,document.getElementById(`root`))}const Y=`/front_6th_chapter1-1/`,X=()=>r(async()=>{let{worker:e}=await import(`./browser-DNkIObYs.js`);return{worker:e}},[]).then(({worker:e})=>e.start({onUnhandledRequest:`bypass`,serviceWorker:{url:`${Y.slice(0,-1)}/mockServiceWorker.js`}}));function Z(){J()}X().then(Z);export{Y as b};
